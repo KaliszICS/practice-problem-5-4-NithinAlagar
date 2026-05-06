@@ -1,20 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: PracticeProblemTest
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.097 s <<< FAILURE! - in PracticeProblemTest
-toWordArrayTest1  Time elapsed: 0.021 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: array contents differ at index [0], expected: <Hello> but was: <>
-	at PracticeProblemTest.toWordArrayTest1(PracticeProblemTest.java:132)
-
-toWordArrayTest2  Time elapsed: 0 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: array lengths differ, expected: <3> but was: <9>
-	at PracticeProblemTest.toWordArrayTest2(PracticeProblemTest.java:150)
-
-toWordArrayTest3  Time elapsed: 0.002 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <0> but was: <4>
-	at PracticeProblemTest.toWordArrayTest3(PracticeProblemTest.java:166)
-
-toWordArrayTest4  Time elapsed: 0.001 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: array contents differ at index [0], expected: <Hello> but was: <>
-	at PracticeProblemTest.toWordArrayTest4(PracticeProblemTest.java:182)
-
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.08 s - in PracticeProblemTest

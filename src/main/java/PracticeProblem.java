@@ -59,7 +59,7 @@ public class PracticeProblem {
     // return arr;
 	
 	// }
-	public static void toWordArray(String words){
+	public static String[] toWordArray(String words){
 		String[] arr = words.split(" ");
 		int count = 0;
 		for (int i = 0; i < arr.length; i++){
@@ -69,13 +69,14 @@ public class PracticeProblem {
 		}
 		String[] output = new String[arr.length - count];
 		int idx = 0;
-		for (int i = 0; i < output.length; i++){
+		for (int i = 0; i < arr.length; i++){
 			if (!arr[i].equals("")){
-				output[i] = arr[idx];
+				output[idx] = arr[i];
 				idx++;
 			}
-			idx++;
+			
 		}
+		return output;
 	}
 	
 
